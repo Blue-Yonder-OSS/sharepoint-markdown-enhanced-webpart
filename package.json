@@ -1,0 +1,61 @@
+{
+  "name": "markdown",
+  "version": "0.0.1",
+  "private": true,
+  "engines": {
+    "node": ">=16.13.0 <17.0.0"
+  },
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "gulp bundle",
+    "clean": "gulp clean",
+    "test": "gulp test"
+  },
+  "dependencies": {
+    "@codemirror/commands": "^6.2.1",
+    "@codemirror/lang-markdown": "^6.1.0",
+    "@codemirror/language": "^6.6.0",
+    "@codemirror/language-data": "^6.1.0",
+    "@codemirror/state": "^6.2.0",
+    "@codemirror/theme-one-dark": "^6.1.1",
+    "@microsoft/sp-core-library": "1.16.1",
+    "@microsoft/sp-lodash-subset": "1.16.1",
+    "@microsoft/sp-office-ui-fabric-core": "1.16.1",
+    "@microsoft/sp-property-pane": "1.16.1",
+    "@microsoft/sp-webpart-base": "1.16.1",
+    "codemirror": "^6.0.1",
+    "github-markdown-css": "^5.2.0",
+    "markdown-loader": "^7.0.0",
+    "mermaid": "^9.1.7",
+    "office-ui-fabric-react": "^7.199.1",
+    "react": "17.0.1",
+    "react-dom": "17.0.1",
+    "react-markdown": "^8.0.5",
+    "react-syntax-highlighter": "^15.5.0",
+    "rehype-autolink-headings": "^6.1.1",
+    "rehype-highlight": "^6.0.0",
+    "rehype-slug": "^5.1.0",
+    "remark-emoji": "^3.1.1",
+    "remark-gemoji": "^7.0.1",
+    "remark-gfm": "^3.0.1",
+    "remark-mermaid-plugin": "^1.0.2",
+    "remark-mermaidjs": "^4.1.1",
+    "tslib": "2.3.1"
+  },
+  "devDependencies": {
+    "@microsoft/eslint-config-spfx": "1.16.1",
+    "@microsoft/eslint-plugin-spfx": "1.16.1",
+    "@microsoft/rush-stack-compiler-4.5": "0.2.2",
+    "@microsoft/sp-build-web": "1.16.1",
+    "@microsoft/sp-module-interfaces": "1.16.1",
+    "@rushstack/eslint-config": "2.5.1",
+    "@types/react": "17.0.45",
+    "@types/react-dom": "17.0.17",
+    "@types/react-syntax-highlighter": "^15.5.6",
+    "@types/webpack-env": "~1.15.2",
+    "ajv": "^6.12.5",
+    "eslint-plugin-react-hooks": "4.3.0",
+    "gulp": "4.0.2",
+    "typescript": "4.5.5"
+  }
+}

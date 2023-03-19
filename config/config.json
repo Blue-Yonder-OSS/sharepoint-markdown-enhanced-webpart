@@ -1,0 +1,18 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "sp-markdown-preview-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/spMarkdownPreview/SpMarkdownPreviewWebPart.js",
+          "manifest": "./src/webparts/spMarkdownPreview/SpMarkdownPreviewWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "SpMarkdownPreviewWebPartStrings": "lib/webparts/spMarkdownPreview/loc/{locale}.js"
+  }
+}

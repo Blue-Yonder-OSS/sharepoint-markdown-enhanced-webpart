@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "markdown-client-side-solution",
+    "id": "c29cc27b-1d30-4883-b82b-eef51876e405",
+    "version": "1.0.10.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.16.1"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "markdown description"
+      },
+      "longDescription": {
+        "default": "markdown description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "markdown Feature",
+        "description": "The feature that activates elements of the markdown solution.",
+        "id": "0e8a757e-8ee7-44f6-91d1-66593754d666",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/markdown.sppkg"
+  }
+}
